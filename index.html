@@ -98,8 +98,12 @@
   font-weight: 200;
   font-size: clamp(4rem, 8vw, 7rem);
   letter-spacing: .08em;
-  color: rgba(184,154,106,.18);
+  color: rgba(184,154,106,.04);
   user-select: none;
+  transition: color .6s ease;
+}
+#winrate-wrap .wr-hero:hover .wr-hero-kanji {
+  color: rgba(184,154,106,.14);
 }
 #winrate-wrap .wr-hero-content {
   position: relative; z-index: 4;
@@ -324,7 +328,7 @@
   transition: color .6s ease;
 }
 #winrate-wrap .wr-card:hover .wr-card-kanji {
-  color: rgba(255,255,255,.1);
+  color: rgba(255,255,255,.14);
 }
 #winrate-wrap .wr-card-info {
   position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
