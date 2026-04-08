@@ -317,10 +317,14 @@
   font-family: 'Noto Serif JP', serif;
   font-weight: 200;
   font-size: 5rem;
-  color: rgba(255,255,255,.06);
+  color: rgba(255,255,255,.02);
   writing-mode: vertical-rl;
   user-select: none;
   pointer-events: none;
+  transition: color .6s ease;
+}
+#winrate-wrap .wr-card:hover .wr-card-kanji {
+  color: rgba(255,255,255,.1);
 }
 #winrate-wrap .wr-card-info {
   position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
